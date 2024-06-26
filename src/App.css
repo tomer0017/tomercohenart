@@ -534,8 +534,8 @@ z-index: 2;
    }
 
    .mockup_pic{
-    margin-top: 45px;
-    width: 100px;
+    margin-top: 40px;
+    width: 90px;
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0);
@@ -566,7 +566,7 @@ z-index: 2;
   }
 
   .mockup_sofa{
-    width: 260px;
+    width: 210px;
     position: absolute;
     top: 95%;
     left: 50%;

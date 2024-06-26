@@ -3,18 +3,16 @@ import { Mockup_description } from './components/mockup_description';
 import { Header } from './components/header';
 import { About_me_text } from './components/about_me_text';
 import './App.css';
-import React,{useRef,useEffect,useState} from 'react';
+import React,{useEffect,useState} from 'react';
 import Row from 'react-bootstrap/Row'; 
 import Col from 'react-bootstrap/Col'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import headerVideo from './assets/videos/headervideo.mp4';
-import TomerPic from './assets/images/tomer1.jpg';
 import Navbar_comp from './components/navbar_comp';
 import { useInView } from 'react-intersection-observer';
 import Mockup from './components/mockup';
 import Pic_carousel from './components/pic_carousel';
 import { Container } from 'react-bootstrap';
-import { Gallery } from "react-grid-gallery";
 
 
 
@@ -30,7 +28,7 @@ function App() {
   const [animateType, setAnimateType] = useState("in");
 
   const artist_pic='http://www.uploads.co.il/uploads/images/973892682.png';
-  const mockup_wall1='http://www.uploads.co.il/uploads/images/158184265.jpg';
+  
   const images = [
     {
        src: "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_b.jpg",
@@ -67,12 +65,12 @@ function App() {
       })
       .then(data => {
         setData(data);
-        // console.log('Fetched data:', data); // Log the data to the console
+        console.log('Fetched data:', data); // Log the data to the console
       })
       .catch(error => console.error('Error fetching data:', error));
   }, []);
 
-
+//   console.log(data);
   useEffect(() => {
 
       setAnimate(true);

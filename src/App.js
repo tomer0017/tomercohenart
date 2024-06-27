@@ -103,6 +103,8 @@ function App() {
       </Col>
       <Col md={6} xs={12}>
       <img className='about_me_pic' alt="pic for about me" src={artist_pic} />
+      <img className='about_me_pic' alt="pic for about me" src={artist_pic} />
+      <img className='about_me_pic' alt="pic for about me" src={artist_pic} />
       </Col>
     </Row>
       </Container>
@@ -144,7 +146,6 @@ function App() {
             <Col>
                 <img width={'260vh'} style={{padding:'30px'}} src={artist_pic}/>
             </Col>
-            
         </Row> */}
            
             <img src="https://cdn.iconscout.com/icon/free/png-512/free-instagram-1946323-1646407.png?f=webp&w=256" href="www.google.co.il" width={30}/>

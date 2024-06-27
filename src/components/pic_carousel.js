@@ -9,9 +9,12 @@ import 'swiper/css/pagination';
 
 
 
-    function Pic_carousel({data,setAnimateType, setTimeout, setMockupPic, setMockupSofa, setPicName,setPicDescription}) {
+    function Pic_carousel({data,setPicWidth,setAnimateType, setTimeout, setMockupPic, setMockupSofa, setPicName,setPicDescription}) {
       const [clickedIndex, setClickedIndex] = useState(1);
       
+      
+
+
       return (
         <>
      
@@ -45,7 +48,8 @@ scrollbar={{
         
       {data.map((item,index) => <SwiperSlide>
           <img  className={clickedIndex === index ? 'clicked_pic_carousel' : 'pic_carousel'}   src={item.src} alt={item.title} onClickCapture={value => setAnimateType("out")} onClick={value => {
-            
+        const temp=item.width>=item.height?'130px':150*item.width/item.height+'px'    
+        setPicWidth(temp)    
         setClickedIndex(index)
         setPicDescription(item.price[0]['size'])
         setMockupPic(item.src);

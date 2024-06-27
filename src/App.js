@@ -26,6 +26,7 @@ function App() {
   const [mockupSofa,setMockupSofa]=useState("http://www.uploads.co.il/uploads/images/248736505.png")
   const [animate, setAnimate] = useState(false);
   const [animateType, setAnimateType] = useState("in");
+  const[picWidth,setPixWidth]=useState('')
 
   const artist_pic='http://www.uploads.co.il/uploads/images/973892682.png';
   
@@ -118,13 +119,13 @@ function App() {
             <Mockup_description   picName={picName} picDescription={picDescription}  />
             </Col>
             <Col>
-            <Mockup   mockupPic={mockupPic} animate={animate} animateType={animateType} mockupSofa={mockupSofa}  />
+            <Mockup  picWidth={picWidth} mockupPic={mockupPic} animate={animate} animateType={animateType} mockupSofa={mockupSofa}  />
             </Col>
         </Row>
          </div>
       {/* </div> */}
       {/* <img className='mockup_floor' src="http://www.uploads.co.il/uploads/images/880157031.jpg" /> */}
-      <Pic_carousel  data={data} setAnimateType={setAnimateType} setTimeout={setTimeout} setMockupPic={setMockupPic} setMockupSofa={setMockupSofa} setPicName={setPicName}  setPicDescription={setPicDescription}/>
+      <Pic_carousel  data={data} setPicWidth={setPixWidth} setAnimateType={setAnimateType} setTimeout={setTimeout} setMockupPic={setMockupPic} setMockupSofa={setMockupSofa} setPicName={setPicName}  setPicDescription={setPicDescription}/>
       
       <My_gallery   data={data}  />
 

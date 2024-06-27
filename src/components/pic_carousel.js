@@ -48,7 +48,7 @@ scrollbar={{
         
       {data.map((item,index) => <SwiperSlide>
           <img  className={clickedIndex === index ? 'clicked_pic_carousel' : 'pic_carousel'}   src={item.src} alt={item.title} onClickCapture={value => setAnimateType("out")} onClick={value => {
-        const temp=item.width>=item.height?'130px':150*item.width/item.height+'px'    
+        const temp=item.width>=item.height?'120px':150*item.width/item.height+'px'    
         setPicWidth(temp)    
         setClickedIndex(index)
         setPicDescription(item.price[0]['size'])

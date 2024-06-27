@@ -877,4 +877,7 @@ width={400} className='bounce-in-top' style={{bottom:'0',position:'absolute',lef
     border-radius: 4px;
   }
 
+  .almog{
+    background-color: blue;
+  }
   

@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/tomercohenart/static/css/main.6edab2f9.css",
-    "main.js": "/tomercohenart/static/js/main.988bc3bf.js",
+    "main.css": "/tomercohenart/static/css/main.4cbf08e5.css",
+    "main.js": "/tomercohenart/static/js/main.39e765ce.js",
     "static/js/453.53a55307.chunk.js": "/tomercohenart/static/js/453.53a55307.chunk.js",
     "static/media/headervideo.mp4": "/tomercohenart/static/media/headervideo.2936ed5d40e968fbaeda.mp4",
     "static/media/black_logo.png": "/tomercohenart/static/media/black_logo.c028a88ce0afcd41cb8e.png",
     "index.html": "/tomercohenart/index.html",
-    "main.6edab2f9.css.map": "/tomercohenart/static/css/main.6edab2f9.css.map",
-    "main.988bc3bf.js.map": "/tomercohenart/static/js/main.988bc3bf.js.map",
+    "main.4cbf08e5.css.map": "/tomercohenart/static/css/main.4cbf08e5.css.map",
+    "main.39e765ce.js.map": "/tomercohenart/static/js/main.39e765ce.js.map",
     "453.53a55307.chunk.js.map": "/tomercohenart/static/js/453.53a55307.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6edab2f9.css",
-    "static/js/main.988bc3bf.js"
+    "static/css/main.4cbf08e5.css",
+    "static/js/main.39e765ce.js"
   ]
 }

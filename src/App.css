@@ -535,7 +535,7 @@ z-index: 2;
 
    .mockup_pic{
     margin-top: 45px;
-    width: 100px;
+    width: 500px;
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0);

@@ -1,5 +1,6 @@
-import React from "react";
+import React,{useState} from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
+
 
 // Import Swiper styles
 import 'swiper/css';
@@ -9,6 +10,8 @@ import 'swiper/css/pagination';
 
 
     function Pic_carousel({data,setAnimateType, setTimeout, setMockupPic, setMockupSofa, setPicName,setPicDescription}) {
+      const [clickedIndex, setClickedIndex] = useState(1);
+      
       return (
         <>
      
@@ -40,16 +43,16 @@ scrollbar={{
   draggable: true
 }} onSwiper={swiper => console.log(swiper)} onSlideChange={() => console.log('slide change')}>
         
-      {data.map(item => <SwiperSlide>
-          <img className="pic_carousel" src={item.src} alt={item.title} onClickCapture={value => setAnimateType("out")} onClick={value => {
+      {data.map((item,index) => <SwiperSlide>
+          <img  className={clickedIndex === index ? 'clicked_pic_carousel' : 'pic_carousel'}   src={item.src} alt={item.title} onClickCapture={value => setAnimateType("out")} onClick={value => {
             
-      setTimeout(() => {
+        setClickedIndex(index)
         setPicDescription(item.price[0]['size'])
         setMockupPic(item.src);
         setMockupSofa(item.sofa_url);
         setPicName(item.name);
         setAnimateType("in");
-      }, 700);
+      
     }} />
         </SwiperSlide>)}
 </Swiper> 

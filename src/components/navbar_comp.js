@@ -7,10 +7,10 @@ import Logo from '../assets/images/black_logo.png'
     function Navbar_comp({}) {
       return (<Navbar bg="dark" data-bs-theme="dark" >
         <div style={{display:'ruby',margin:12}}>
-          {/* <Navbar.Brand href="#home" style={{top:0, right:-100}}>Tomer Cohen Art</Navbar.Brand> */}
+
           <Navbar.Brand href="#home" style={{top:0, right:-100}}><img className="logo" src={Logo}/></Navbar.Brand>
           <Nav className="me-auto" >
-            <Nav.Link href="#home" style={{ marginRight:100,fontSize:18}}>הדפסים למכירה</Nav.Link>
+            <Nav.Link href="#home" style={{fontSize:18}}>הדפסים למכירה</Nav.Link>
             <Nav.Link href="#features" style={{fontSize:18}}>ציורים מקוריים</Nav.Link>
             <Nav.Link href="#pricing" style={{fontSize:18}}>אודות</Nav.Link>
             <Nav.Link href="#pricing2" style={{fontSize:18}}>צור קשר</Nav.Link>

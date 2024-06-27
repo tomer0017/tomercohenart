@@ -103,8 +103,6 @@ function App() {
       </Col>
       <Col md={6} xs={12}>
       <img className='about_me_pic' alt="pic for about me" src={artist_pic} />
-      <img className='about_me_pic' alt="pic for about me" src={artist_pic} />
-      <img className='about_me_pic' alt="pic for about me" src={artist_pic} />
       </Col>
     </Row>
       </Container>

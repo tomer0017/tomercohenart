@@ -9,7 +9,7 @@ import Logo from '../assets/images/black_logo.png'
         <div style={{display:'ruby',margin:12}}>
 
           <Navbar.Brand href="#home" style={{top:0, right:-100}}><img className="logo" src={Logo}/></Navbar.Brand>
-          <Nav className="me-auto" >
+          <Nav className="me-auto">
             <Nav.Link href="#home" style={{fontSize:18}}>הדפסים למכירה</Nav.Link>
             <Nav.Link href="#features" style={{fontSize:18}}>ציורים מקוריים</Nav.Link>
             <Nav.Link href="#pricing" style={{fontSize:18}}>אודות</Nav.Link>

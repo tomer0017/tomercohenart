@@ -1,5 +1,6 @@
-import React,{useState} from 'react';
+import React,{useState,useEffect} from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
+
 
 
 // Import Swiper styles
@@ -10,12 +11,22 @@ import 'swiper/css/pagination';
 
 
     function Pic_carousel({data,setPicWidth,setAnimateType, setTimeout, setMockupPic, setMockupSofa, setPicName,setPicDescription}) {
-      const [clickedIndex, setClickedIndex] = useState(1);
       
+
+      const [clickedIndex, setClickedIndex] = useState(1);
+      const [showElement,setShowElement] = useState(true);
+
+      useEffect(()=>{
+        setTimeout(function() {
+          setShowElement(false)
+             }, 15000);
+           },
+       [])
       
 
 
       return (
+
         <>
      
  <Swiper className='pic_carousle'
@@ -60,6 +71,7 @@ scrollbar={{
     }} />
         </SwiperSlide>)}
 </Swiper> 
+{showElement?<img className='swipe_gif' src='https://cliply.co/wp-content/uploads/2021/07/392107620_SWIPE_RIGHT_400px.gif' />:''}
          
 </>
 

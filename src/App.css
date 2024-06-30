@@ -529,6 +529,12 @@ z-index: 2;
   } */
 
  
+  .swipe_gif{
+    width: 150px;
+    position: absolute;
+    z-index: 1;
+    transform: translate(50%, -45%);
+  }
 
   .pic_carousel{
     height: 17vh;

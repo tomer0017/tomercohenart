@@ -7,7 +7,7 @@ export function Header({
       <img className="gif_header" src='https://videoapi-muybridge.vimeocdn.com/animated-thumbnails/image/147f3a8e-16a0-4b5d-ad6b-448e5c3135b5.gif?ClientID=sulu&Date=1719762877&Signature=322f1595be29a7a8de46d247bdcd3289cae6e13d' />
       <div className='content'>
         <h1 className='caveat-title'>Tomer Cohen Art</h1>
-        <h3>Welcom to my world</h3>
+        <h5>Welcom to my world</h5>
       </div>
     </div>;
 }

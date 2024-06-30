@@ -119,8 +119,8 @@ z-index: 2;
 }
 
 .logo{
-  width: 150px;
-  height: 70px;
+  width: 100px;
+  height: 50px;
 }
 /* 
 .wall_parent{
@@ -529,6 +529,11 @@ z-index: 2;
     height: 38vh;
   } */
 
+  .navbar-expand .navbar-nav {
+    flex-direction: row;
+    display: none;
+}
+
  .gif_header{
   width: 100%;
  }
@@ -739,6 +744,12 @@ z-index: 2;
 }
 
 @media screen and (min-width: 768px) {
+
+  .navbar-expand .navbar-nav {
+    flex-direction: row;
+    display:ruby;
+}
+
   .pic_carousel{
     height: 22vh;
     width: 95%;
@@ -799,6 +810,11 @@ z-index: 2;
 }
 
 @media screen and (min-width: 1250px) {
+
+  .navbar-expand .navbar-nav {
+    flex-direction: row;
+    display:ruby;
+}
 
   .gallery_carousel {
     height: 30vh;
@@ -937,7 +953,7 @@ width={400} className='bounce-in-top' style={{bottom:'0',position:'absolute',lef
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    font-size:60px;
+    font-size:4vh;
   }
 
   .my_gallery{

@@ -550,6 +550,18 @@ z-index: 2;
     height: 21vh;
 }
 
+.pic_carousel2{
+  width: calc(100% / 3);
+  flex-shrink: 0;
+  display: inline-block;
+  margin: 5px;
+ }
+
+ .clicked_pic_carousel2 {     
+  width: calc(100% / 3);
+    flex-shrink: 0;
+    display: inline-block;
+}
    .mockup_pic{
     margin-top: 23px;
     width: 100px;
@@ -894,9 +906,6 @@ width={400} className='bounce-in-top' style={{bottom:'0',position:'absolute',lef
   
   .my_gallery_pic{
     margin: 1%;
-    /* width: 100px; */
-    /* position: absolute;
-    display: flex; */
     position: relative;
  
     box-shadow: -3px 2px 8px 6px rgba(19, 19, 19, 0.3);
@@ -904,7 +913,44 @@ width={400} className='bounce-in-top' style={{bottom:'0',position:'absolute',lef
     border-radius: 4px;
   }
 
-  .almog{
-    background-color: blue;
+  .gallery-container {
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+.gallery {
+    margin: 5px;
+    display: flex;
+    /* height: 17vh; */
+}
+
+.gallery_carousel {
+  height: 17vh;
+  width: calc(100% / 3);
+  flex-shrink: 0;
+  display: inline-block;
+  object-fit: cover;
+  filter: brightness(30%);
+  margin:10px; 
+}
+
+.clicked_gallery_carousel {
+    height: 21vh;
+    width: calc(100% / 3);
+    object-fit: cover;
+    border: 4px solid #f5d0f5;
+    
+    height: 21vh;
+}
+
+@keyframes scroll {
+  0% {
+      transform: translateX(0);
   }
-  
+  100% {
+      transform: translateX(calc(-100% / 3));
+  }
+}

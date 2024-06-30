@@ -29,7 +29,7 @@ import 'swiper/css/pagination';
 
         <>
      
- <Swiper className='pic_carousle'
+ {/* <Swiper className='pic_carousle'
  breakpoints={{
   300: {
     // width: 576,
@@ -70,7 +70,29 @@ scrollbar={{
       
     }} />
         </SwiperSlide>)}
-</Swiper> 
+</Swiper>  */}
+
+
+<div class="gallery-container">
+        <div class="gallery">
+{data.map((item,index) => 
+  <img  className={clickedIndex === index ? 'clicked_gallery_carousel' : 'gallery_carousel'}   src={item.src} alt={item.title} onClickCapture={value => setAnimateType("out")} onClick={value => {
+    const temp=item.width>=item.height?'120px':140*item.width/item.height+'px'    
+    setPicWidth(temp)    
+    setClickedIndex(index)
+    setPicDescription(item.price[0]['size'])
+    setMockupPic(item.src);
+    setMockupSofa(item.sofa_url);
+    setPicName(item.name);
+    setAnimateType("in");
+  
+}} />
+
+
+)}
+
+</div>
+</div>
 {showElement?<img className='swipe_gif' src='https://cliply.co/wp-content/uploads/2021/07/392107620_SWIPE_RIGHT_400px.gif' />:''}
          
 </>

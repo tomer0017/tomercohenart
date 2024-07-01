@@ -2,7 +2,7 @@ import React,{useState} from "react";
 
     function Mockup({picWidth,mockupPic, animate, animateType, mockupSofa}) {
 
-      const [changeFrame,setChangeFrame]=useState(false)
+      const [changeFrame,setChangeFrame]=useState(true)
 
       return (
       <div>

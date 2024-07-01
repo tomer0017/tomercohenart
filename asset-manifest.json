@@ -1,17 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.c28bff1a.css",
-    "main.js": "/static/js/main.b6d1e38f.js",
+    "main.css": "/static/css/main.6d8671f1.css",
+    "main.js": "/static/js/main.8ca3494d.js",
     "static/js/453.53a55307.chunk.js": "/static/js/453.53a55307.chunk.js",
     "static/media/headervideo.mp4": "/static/media/headervideo.2936ed5d40e968fbaeda.mp4",
+    "static/media/headervideo2.gif": "/static/media/headervideo2.4231c366894657920322.gif",
+    "static/media/ErnestandEmily.eot": "/static/media/ErnestandEmily.205993ad4bb605d66e6e.eot",
+    "static/media/ErnestandEmily.ttf": "/static/media/ErnestandEmily.82d5591a0852187f3c2b.ttf",
+    "static/media/ErnestandEmily.woff": "/static/media/ErnestandEmily.aba6a1d50aa139f9e851.woff",
+    "static/media/ErnestandEmily.woff2": "/static/media/ErnestandEmily.fd19a5b3ab3fb783364d.woff2",
     "static/media/black_logo.png": "/static/media/black_logo.c028a88ce0afcd41cb8e.png",
     "index.html": "/index.html",
-    "main.c28bff1a.css.map": "/static/css/main.c28bff1a.css.map",
-    "main.b6d1e38f.js.map": "/static/js/main.b6d1e38f.js.map",
+    "main.6d8671f1.css.map": "/static/css/main.6d8671f1.css.map",
+    "main.8ca3494d.js.map": "/static/js/main.8ca3494d.js.map",
     "453.53a55307.chunk.js.map": "/static/js/453.53a55307.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c28bff1a.css",
-    "static/js/main.b6d1e38f.js"
+    "static/css/main.6d8671f1.css",
+    "static/js/main.8ca3494d.js"
   ]
 }

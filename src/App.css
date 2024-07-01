@@ -47,11 +47,24 @@
   }
 }
 
+
+@font-face {
+  font-family: 'Ernest and Emily';
+  src: url('ErnestandEmily.eot');
+  src: local('Ernest and Emily'), local('ErnestandEmily'),
+      url('ErnestandEmily.eot?#iefix') format('embedded-opentype'),
+      url('ErnestandEmily.woff2') format('woff2'),
+      url('ErnestandEmily.woff') format('woff'),
+      url('ErnestandEmily.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .about_me{
-  /* margin-top: 20px; */
+/* transform: translate(0%, -9%);   */ /*for mobile */
+border-radius: 40px;
 background-color: #343434;
-padding:25px ;
-margin: 30px;
+padding:15px ;
 text-align: center;
 }
 
@@ -525,18 +538,38 @@ z-index: 2;
 
 @media screen and (min-width: 300px) {
 
-  /* .main video{
-    height: 38vh;
-  } */
+  .about_me{
+    transform: translate(0%, -9%);   /*for mobile */
+    border-radius: 40px;
+    background-color: #343434;
+    padding:15px ;
+    /* margin: 30px; */
+    text-align: center;
+    }
+
+  .navbar {
+    direction: ltr;
+  }
+
+  .header_title {
+    font-family: 'Ernest and Emily';
+    font-size:4vh;
+    color: rgb(249 201 131)
+    /* -webkit-text-stroke:1px #ffffff; */
+  }
+
+  .gif_header{
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    margin-bottom: 20px;
+   }
 
   .navbar-expand .navbar-nav {
     flex-direction: row;
     display: none;
 }
 
- .gif_header{
-  width: 100%;
- }
   .navbar_style{
     display: none;
   }
@@ -684,6 +717,24 @@ z-index: 2;
 
 }
  @media screen and (min-width: 576px) {
+  .navbar {
+    direction: ltr;
+  }
+
+  .header_title {
+    font-family: 'Ernest and Emily';
+    font-size:6vh;
+    color: rgb(249 201 131)
+    /* -webkit-text-stroke:1px #ffffff; */
+  }
+
+  .gif_header{
+    width: 100%;
+    height: 45vh;
+    object-fit: cover;
+    margin-bottom: 20px;
+   }
+
   .pic_carousel{
     height: 18vh;
     width: 90%;
@@ -744,6 +795,25 @@ z-index: 2;
 }
 
 @media screen and (min-width: 768px) {
+
+  .navbar {
+    direction: rtl;
+  }
+
+  .header_title {
+    font-family: 'Ernest and Emily';
+    font-size:7vh;
+    color: rgb(249 201 131)
+    /* -webkit-text-stroke:1px #ffffff; */
+  }
+
+  .gif_header{
+    width: 100%;
+    height: 55vh;
+    object-fit: cover;
+    margin-bottom: 20px;
+   }
+
 
   .navbar-expand .navbar-nav {
     flex-direction: row;
@@ -811,6 +881,24 @@ z-index: 2;
 
 @media screen and (min-width: 1250px) {
 
+  .navbar {
+    direction: rtl;
+  }
+
+  .header_title {
+    font-family: 'Ernest and Emily';
+    font-size:12vh;
+    color: rgb(249 201 131)
+    /* -webkit-text-stroke:1px #ffffff; */
+  }
+
+  .gif_header{
+    width: 100%;
+    height: 85vh;
+    object-fit: cover;
+    margin-bottom: 20px;
+   }
+
   .navbar-expand .navbar-nav {
     flex-direction: row;
     display:ruby;
@@ -850,16 +938,25 @@ z-index: 2;
 
   .mockup_pic{
   margin-top: 95px;
-  /* width: 13%; */
   width: 220px;
   position: absolute;
   left: 50%;
   transform: translate(-50%, 0%);
-  /* z-index: 1; */
   box-shadow: -3px 2px 8px 6px rgba(19, 19, 19, 0.3);
   border: 4px solid #3b3b3b;;
   border-radius: 4px;
 }
+
+/* .clicked_mockup_pic{
+  margin-top: 95px;
+  width: 220px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  box-shadow: -3px 2px 8px 6px rgba(19, 19, 19, 0.3);
+  border: 4px solid #ffffff;;
+  border-radius: 4px;
+} */
 
 .mockup_wall{
   height:55vh;
@@ -947,14 +1044,12 @@ video {
 }
 /* 
 width={400} className='bounce-in-top' style={{bottom:'0',position:'absolute',left:'380',zIndex:"initial" */
- 
-  .caveat-title {
-    font-family: "Caveat", cursive;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
+
+/* 
+  .header_title {
+    font-family: 'Ernest and Emily';
     font-size:4vh;
-  }
+  } */
 
   .my_gallery{
     padding-top: 60px;

@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Ernest and Emily';
+    src: url('ErnestandEmily.eot');
+    src: local('Ernest and Emily'), local('ErnestandEmily'),
+        url('ErnestandEmily.eot?#iefix') format('embedded-opentype'),
+        url('ErnestandEmily.woff2') format('woff2'),
+        url('ErnestandEmily.woff') format('woff'),
+        url('ErnestandEmily.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ernest and Emily Slanted Solid';
+    src: url('ErnestandEmilySlantedSolid.eot');
+    src: local('Ernest and Emily Slanted Solid'), local('ErnestandEmilySlantedSolid'),
+        url('ErnestandEmilySlantedSolid.eot?#iefix') format('embedded-opentype'),
+        url('ErnestandEmilySlantedSolid.woff2') format('woff2'),
+        url('ErnestandEmilySlantedSolid.woff') format('woff'),
+        url('ErnestandEmilySlantedSolid.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ernest and Emily Slanted';
+    src: url('ErnestandEmilySlanted.eot');
+    src: local('Ernest and Emily Slanted'), local('ErnestandEmilySlanted'),
+        url('ErnestandEmilySlanted.eot?#iefix') format('embedded-opentype'),
+        url('ErnestandEmilySlanted.woff2') format('woff2'),
+        url('ErnestandEmilySlanted.woff') format('woff'),
+        url('ErnestandEmilySlanted.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ernest and Emily Caps';
+    src: url('ErnestandEmilyCaps.eot');
+    src: local('Ernest and Emily Caps'), local('ErnestandEmilyCaps'),
+        url('ErnestandEmilyCaps.eot?#iefix') format('embedded-opentype'),
+        url('ErnestandEmilyCaps.woff2') format('woff2'),
+        url('ErnestandEmilyCaps.woff') format('woff'),
+        url('ErnestandEmilyCaps.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ernest and Emily Solid';
+    src: url('ErnestandEmilySolid.eot');
+    src: local('Ernest and Emily Solid'), local('ErnestandEmilySolid'),
+        url('ErnestandEmilySolid.eot?#iefix') format('embedded-opentype'),
+        url('ErnestandEmilySolid.woff2') format('woff2'),
+        url('ErnestandEmilySolid.woff') format('woff'),
+        url('ErnestandEmilySolid.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ernest and Emily Upright';
+    src: url('ErnestandEmilyUpright.eot');
+    src: local('Ernest and Emily Upright'), local('ErnestandEmilyUpright'),
+        url('ErnestandEmilyUpright.eot?#iefix') format('embedded-opentype'),
+        url('ErnestandEmilyUpright.woff2') format('woff2'),
+        url('ErnestandEmilyUpright.woff') format('woff'),
+        url('ErnestandEmilyUpright.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ernest and Emily Upright Solid';
+    src: url('ErnestandEmilyUprightSolid.eot');
+    src: local('Ernest and Emily Upright Solid'), local('ErnestandEmilyUprightSolid'),
+        url('ErnestandEmilyUprightSolid.eot?#iefix') format('embedded-opentype'),
+        url('ErnestandEmilyUprightSolid.woff2') format('woff2'),
+        url('ErnestandEmilyUprightSolid.woff') format('woff'),
+        url('ErnestandEmilyUprightSolid.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

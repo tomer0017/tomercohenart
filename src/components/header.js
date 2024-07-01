@@ -1,13 +1,13 @@
 import React from "react";
+import GifHeader from '../assets/gifs/headervideo2.gif'
 export function Header({
   headerVideo
 }) {
   return <div className="main">
-      {/* <video src={headerVideo} autoPlay loop muted /> */}
-      <img className="gif_header" src='https://videoapi-muybridge.vimeocdn.com/animated-thumbnails/image/147f3a8e-16a0-4b5d-ad6b-448e5c3135b5.gif?ClientID=sulu&Date=1719762877&Signature=322f1595be29a7a8de46d247bdcd3289cae6e13d' />
+      <img className="gif_header" alt="gif" src={GifHeader} />
       <div className='content'>
-        <h1 className='caveat-title'>Tomer Cohen Art</h1>
-        <h5>Welcom to my world</h5>
+        <h1 className='header_title'>Tomer Cohen Art</h1>
+        {/* <h6>Welcom to my world</h6> */}
       </div>
     </div>;
 }
